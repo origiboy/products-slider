@@ -1,0 +1,29 @@
+.container {
+  max-width: 1750px;
+  padding: 30px 100px;
+
+  h2 {
+    margin: 0px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 30px 20px;
+
+    h2 {
+      font-size: 20px;
+      line-height: 29px;
+    }
+
+    .content {
+      display: flex;
+    }
+  }
+}
